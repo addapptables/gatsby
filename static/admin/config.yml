@@ -1,0 +1,43 @@
+backend:
+  name: github
+  # change repo to your git repository url
+  repo: thesoftdevteam/grandbox-website
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - name: settings
+    label: Settings
+    files:
+      - name: config
+        label: Config
+        file: site-meta-data.json
+        fields:
+          - widget: string
+            name: title
+            label: Site Title
+            required: true
+          - widget: string
+            name: siteUrl
+            label: Website URL
+            required: true
+          - widget: text
+            name: description
+            label: Description
+            default: ''
+            required: false
+          - widget: object
+            name: home
+            label: Homepage Options
+            fields:
+              - widget: string
+                name: title
+                label: Title
+                default: ''
+                required: false
+              - widget: markdown
+                name: description
+                label: Description
+                default: ''
+                required: false
