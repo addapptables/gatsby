@@ -1,0 +1,15 @@
+{
+	"title": "Grandbox blog | grandfamily stories",
+	"siteUrl": "https://grandbox.com",
+	"fbAdmins": "100051892566618",
+	"fbAppId": "3081494895277992",
+	"twitterUsername": "@my_grandbox",
+	"logo": "/assets/grandbox-logo-brown.svg",
+	"image": "/assets/Grandma_subscription_box_with_games.jpg",
+	"logo_small": "/assets/grandbox-logo-small.svg",
+	"description": "We are the GrandFamily, a community for the most lovely granddaughters and grandsons how to want to know everything about their elderly stories, aging with parents, and life-hacks.",
+	"home": {
+		"title": "Welcome to the GrandFamily's Community",
+		"description": "The right place for search inspiration, understand better and remember from our GrandParents"
+	}
+}

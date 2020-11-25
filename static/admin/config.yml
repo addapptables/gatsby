@@ -1,7 +1,7 @@
 backend:
   name: github
   # change repo to your git repository url
-  repo: thesoftdevteam/grandbox-website
+  repo: addapptables/gatsby
 
 media_folder: static/assets
 public_folder: /assets
